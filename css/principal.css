@@ -1,0 +1,64 @@
+
+/********** Estilos Gerais **********/
+@media all {
+*{margin: 0; padding: 0;}
+
+.letraLogo{
+	font-family: 'Segoe Script';}
+	.letraLogo span{ color: #A2CD5A;}
+	.letraLogo h3{ color: #A2CD5A;}
+
+@font-face {
+font-family: 'Segoe Script';
+src: url('font/segoesc.ttf');
+}
+
+	
+#container_mensagens{
+	margin-top: -15px;}
+	
+#btn_pesquisarusuarios{
+	margin-top: 7px;}
+	
+.ganttTarefas{
+	border-width: 5px;
+	border-style: solid;
+	border-color: silver;
+	border-radius: 2px;}
+
+
+}
+
+/********** Estilos Desktop **********/
+@media screen and (min-width: 769px) {
+   
+}
+
+/********** Estilos Mobile (Tablet e Smarphone) **********/
+@media screen and (max-width: 768px) {
+
+    
+}
+
+/********** Estilos Tablet **********/
+@media screen and (max-width: 768px) and (min-width: 520px) {
+	
+   
+}
+
+/********** Estilos Smartphone **********/
+@media screen and (max-width: 520px) {
+
+    
+}
+
+@media print {
+
+body {width: 1400px;}
+
+.btn
+	{display: none;}
+
+}
+
+
